@@ -2,18 +2,18 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 
        local Window = MakeWindow({
          Hub = {
-         Title = "Văn Thành IOS",
+         Title = "TrHieuAimbot Hub",
          Animation = "Script Săn Bounty"
          },
         Key = {
         KeySystem = true,
-        Title = "Văn Thành IOS / Script Săn Bounty",
-        Description = "",
-        KeyLink = "",
-        Keys = {"VanThanhIOS2025"},
+        Title = "TrHieuAimbot Hub / Script Săn Bounty",
+        Description = "Vui Lòng Bỏ Xíu Thời Gian Để Get Key Giúp Tui",
+        KeyLink = "https://sub4unlock.io/9NM2u",
+        Keys = {"TrHieuXz2025"},
         Notifi = {
         Notifications = true,
-        CorrectKey = "Đang Chạy Kịch Bản",
+        CorrectKey = "Đang Chạy Script",
        Incorrectkey = "Mật Khẩu Không Đúng",
        CopyKeyLink = "Đã Sao Chép"
       }
@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/VanThanhIOS/OniiChan
 ------ Tab
      local Tab1o = MakeTab({Name = "Chức Năng"})
     AddButton(Tab1o, {
-     Name = "AimBot 100%",
+     Name = "AIMBOT VIP",
     Callback = function()
     getgenv().setting = {
     Fov = 50,
@@ -291,9 +291,9 @@ mouse.Button1Down:Connect(function()
 end)
         end
     })
-local Tab1o = MakeTab({Name = "Esp"})
+local Tab1o = MakeTab({Name = "Định Vị Người Chơi"})
     AddButton(Tab1o, {
-     Name = "Esp Name",
+     Name = "Định Vị Người Chơi",
     Callback = function()
 
 local c = workspace.CurrentCamera
